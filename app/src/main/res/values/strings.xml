@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Mero Vote</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="about_college" translatable="false">
+Young Communist League, Nepal is the youth wing of Communist Party of Nepal.The Young Communist League was formed by the CPN–Maoist at some point during the peoples war to support the revolution.</string>
+    <string name="college" translatable="false">With the development of the Communist Party in Nepal, different youth organizations were established. These organizations remained on the forefront and played an important role in both mass movements and in the peasants movement. The Akhil Nepal Yuba Sangathan (All Nepal Youth Organization) was established in 1981 under the chairmanship of Comrade Prachanda and it played a positive role in the question of making revolutionary political line. In 1991, it was renamed the Young Communist League (YCL) and during the period of preparation of the Peoples War, it played an important role in completing the preparation of the Peoples War.During the Peoples War it helped the Peoples War. In the new political context developed after the Peoples War and the nineteen-day-long Mass Movement, the Young Communist League was established on 2 December 2006. It conducted campaigns to establish a federal republic, and struggle for patriotism and republic and mobilized youth during the election of Constitution Assembly.</string>
+    <string name="Sachivalaya" translatable="false">There are maximum of 48 sachivalaya committee members. </string>
+    <string name="Karyalaya" translatable="false">There are maximum of 96 Karyalaya Committee Members.</string>
+    <string name="central" translatable="false">There are maximum of 48 CCM.</string>
+    <string name="aayog" translatable="false">There are maximum of 48 aayogs to help</string>
+
+</resources>

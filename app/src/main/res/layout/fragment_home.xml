@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lamsal.pawan.caculatorpro.HomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live Vote Count"
+            android:layout_marginTop="36dp"
+            android:textSize="26sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/Blue"
+            android:fontFamily="sans-serif-black"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The total vote count in real time is as below:"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-light"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:background="#B1AFAF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="36dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Real-Time Count"
+                        android:layout_marginTop="50dp"
+                        android:textSize="20sp"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffff"
+                        android:fontFamily="sans-serif-black"/>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#fff"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A = 1"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:layout_margin="8dp"
+                                android:fontFamily="sans-serif-light"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#828080"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="B = 1"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:layout_margin="8dp"
+                                android:fontFamily="sans-serif-light"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#828080"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="C = 1"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:layout_margin="8dp"
+                                android:fontFamily="sans-serif-light"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#828080"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="D = 1"
+                                android:layout_marginTop="@dimen/text_margin"
+                                android:textSize="@dimen/text_size"
+                                android:layout_marginHorizontal="@dimen/text_margin"
+                                android:layout_gravity="center_horizontal"
+                                android:textColor="@color/black"
+                                android:layout_margin="8dp"
+                                android:fontFamily="sans-serif-light"/>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#828080"/>
+
+
+
+                        </LinearLayout>
+
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>
